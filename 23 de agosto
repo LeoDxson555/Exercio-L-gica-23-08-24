@@ -1,0 +1,14 @@
+// Léo Dxson A. Sales
+// 1 ano 3
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Digite uma sequencia de numeros: ");
+    String input = scanner.nextLine();
+    String reversedInput = new StringBuilder(input).reverse().toString();
+    System.out.println("Sequencia invertida: " + reversedInput);
+  }
+}
